@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Jaringan - Zara</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        body { background-color: #f5f7fa; color: #333; padding: 40px 20px; }
+        .container { max-width: 800px; margin: 0 auto; background: #ffffff; padding: 30px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); }
+        header { text-align: center; margin-bottom: 40px; border-bottom: 2px solid #eaeaea; padding-bottom: 20px; }
+        header h1 { color: #2c3e50; font-size: 28px; margin-bottom: 8px; }
+        header p { color: #7f8c8d; font-size: 16px; }
+        .section-title { color: #2c3e50; margin-bottom: 20px; font-size: 20px; border-left: 4px solid #3498db; padding-left: 10px; }
+        .projek-card { background: #fafbfc; border: 1px solid #e1e4e8; padding: 20px; margin-bottom: 20px; border-radius: 8px; transition: transform 0.2s; }
+        .projek-card:hover { transform: translateY(-3px); box-shadow: 0 4px 10px rgba(0,0,0,0.05); }
+        .projek-card h3 { color: #2980b9; margin-bottom: 10px; font-size: 18px; }
+        .projek-card p { color: #555; font-size: 14px; line-height: 1.6; margin-bottom: 15px; }
+        .btn { display: inline-block; background: #24292e; color: #fff; padding: 10px 16px; text-decoration: none; border-radius: 6px; font-size: 14px; font-weight: bold; }
+        .btn:hover { background: #555; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>👋 Halo, Saya Zara</h1>
+            <p>Siswa SMK TKJ (Teknik Komputer & Jaringan) | Network & Server Enthusiast</p>
+        </header>
+
+        <h2 class="section-title">📂 Daftar Proyek Praktikum Jaringan</h2>
+
+        <!-- PROJEK 1: PPPOE MIKROTIK -->
+        <div class="projek-card">
+            <h3>🌐 1. Routing Mikrotik PPPoE (Dual Router)</h3>
+            <p>Praktikum mengakali keterbatasan perangkat keras dengan mengonfigurasi 2 Mikrotik. Satu perangkat bertindak sebagai Router Utama (PPPoE Server) dan satu perangkat lagi dialihkan fungsinya menjadi Access Point murni (PPPoE Client) untuk memancarkan Wi-Fi.</p>
+            <a href="https://github.com" class="btn" target="_blank">Lihat Skrip & Dokumentasi →</a>
+        </div>
+
+        <!-- PROJEK 2: AKAN DATANG -->
+        <div class="projek-card">
+            <h3>🔒 2. Administrasi Sistem Jaringan & Firewall</h3>
+            <p>Proyek praktikum berikutnya yang berfokus pada keamanan jaringan, manajemen bandwidth (Queue), atau konfigurasi Linux Server.</p>
+            <a href="#" class="btn" style="background: #95a5a6; cursor: not-allowed;">Coming Soon</a>
+        </div>
+    </div>
+
+</body>
+</html>
